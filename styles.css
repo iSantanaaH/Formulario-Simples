@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --background-src-image: url('./image/space.jpeg');
+}
+
+body {
+    background-color: #C0E5FA;
+    font-family: Arial, sans-serif;
+    /* background-image: var(--background-src-image); */
+}
+
+.section-intro {
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-intro h1 {
+    font-size: 2.0rem;
+    color: #6F7AA6;
+}
+
+.section-intro p {
+    line-height: 1.7em;
+    padding: 0.8rem;
+    font-size: 1.1em;
+    color: #6F7AA6;
+}
+
+.section-form {
+    max-width: 330px;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    background-color: #6F7AA6;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#form label {
+    padding: 0.3em;
+}
+
+#form input {
+    padding: 0.1em;
+}
+
+input:hover {
+    background-color: #f0dada;
+}
+
+#button-submit {
+    padding: 5px;
+    margin: 10px 0px 15px;
+    background-color: #C0E5FA;
+}
+
+#button-reset {
+    padding: 5px;
+    margin: 10px 0px 15px;
+    background-color: #C0E5FA;
+}
+
+.container-genero #sexo-m {
+    margin-left: 25px;
+}
+
+.container-genero input {
+    margin: 10px;
+}

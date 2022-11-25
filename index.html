@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste JS</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <section class="section-intro">
+        <div>
+            <h1>Preencha o Formulário</h1>
+            <p>Esse formulário tem o intuito de testar conhecimentos<br>
+            de HTML, CSS e Javascript</p>
+        </div>
+    </section>
+    <section class="section-form">
+        <form  action="" id="form">
+            <label for="nome">Qual é o seu nome?
+                <input type="text" id="name" name="nome" required>
+            </label>
+            <label for="sobrenome">Qual o seu sobrenome?
+                <input type="text" id="secondName" required>
+            </label>
+            <label for="nascimento">Data de nascimento
+                <input type="date"  id="date">
+            </label>
+            <label for="profissao">Qual a sua profissão?
+                <input type="text" id="profission">
+            </label>
+            <label for="email">Qual o seu email para contato?
+                <input type="email" id="email">
+            </label>
+
+        </form>
+        <div class="container-genero">
+            <p>Sexo:</p><br>
+            <input type="radio" id="sexo-m" name="sexo" value="Masculino">
+            <label for="sexo-m">Masculino</label><br>
+            <input type="radio" id="sexo-f" name="sexo" value="Feminino">
+            <label for="sexo-f">Feminio</label>
+        </div>
+        <button type="submit" id="button-submit" onclick="Submit()">Submit</button>
+        <button type="button" id="button-reset" onclick="Clear()">Limpar</button>
+    </section>
+</body>
+</html>
